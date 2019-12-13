@@ -14,7 +14,7 @@ def count_th(word):
     #if word[:2].lower() == 'th':
     #thought I needed to until I ran test
     
-    if word[:2].lower() == 'th':
+    if word[:2] == 'th':
         return count_th(word[1:]) + 1
 
     
